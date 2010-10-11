@@ -3,9 +3,7 @@ var fizzBuzz = function () {
     var getResult = function (number) {
 
         if (isFizzBuzz(number)) return "fizzbuzz";
-
         if (isFizz(number)) return "fizz";
-
         if (isBuzz(number)) return "buzz";
 
         return number.toString();
